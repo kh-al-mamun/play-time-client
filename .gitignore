@@ -22,7 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-RegForm
 LoginForm
 Gallery
 Banner
