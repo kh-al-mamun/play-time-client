@@ -9,8 +9,8 @@ const Blog = () => {
             <div className='QA-container'>
                 <div className='QA-section'>
                     <div className='icon-container'>
-                    <PinAngleIcon size={'36'}></PinAngleIcon>
-                    <PinAngleFillIcon size={'36'}></PinAngleFillIcon>
+                        <button><PinAngleIcon size={'36'}></PinAngleIcon></button>
+                        <button><PinAngleFillIcon size={'36'}></PinAngleFillIcon></button>
                     </div>
                     <li>
                         What is an access token and refresh token? How do they work and where should we store them on the client-side?
@@ -22,11 +22,11 @@ const Blog = () => {
                 </div>
                 <div className='QA-section'>
                     <div className='icon-container'>
-                    <PinAngleIcon size={'36'}></PinAngleIcon>
-                    <PinAngleFillIcon size={'36'}></PinAngleFillIcon>
+                        <button><PinAngleIcon size={'36'}></PinAngleIcon></button>
+                        <button><PinAngleFillIcon size={'36'}></PinAngleFillIcon></button>
                     </div>
                     <li>
-                        What is an access token and refresh token? How do they work and where should we store them on the client-side?
+                        Compare SQL and NoSQL databases?
                     </li>
                     <br />
                     <p>
@@ -35,11 +35,11 @@ const Blog = () => {
                 </div>
                 <div className='QA-section'>
                     <div className='icon-container'>
-                    <PinAngleIcon size={'36'}></PinAngleIcon>
-                    <PinAngleFillIcon size={'36'}></PinAngleFillIcon>
+                        <button><PinAngleIcon size={'36'}></PinAngleIcon></button>
+                        <button><PinAngleFillIcon size={'36'}></PinAngleFillIcon></button>
                     </div>
                     <li>
-                        What is an access token and refresh token? How do they work and where should we store them on the client-side?
+                        What is express js? What is Nest JS?
                     </li>
                     <br />
                     <p>
@@ -48,11 +48,11 @@ const Blog = () => {
                 </div>
                 <div className='QA-section'>
                     <div className='icon-container'>
-                    <PinAngleIcon size={'36'}></PinAngleIcon>
-                    <PinAngleFillIcon size={'36'}></PinAngleFillIcon>
+                        <button><PinAngleIcon size={'36'}></PinAngleIcon></button>
+                        <button><PinAngleFillIcon size={'36'}></PinAngleFillIcon></button>
                     </div>
                     <li>
-                        What is an access token and refresh token? How do they work and where should we store them on the client-side?
+                        What is MongoDB aggregate and how does it work ?
                     </li>
                     <br />
                     <p>
