@@ -12,6 +12,8 @@ import ItemDetails from './components/ItemDetails/ItemDetails';
 import Blog from './components/Blog/Blog';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import Banner from './components/Banner/Banner';
+import CustomerReview from './components/CustomerReview/CustomerReview';
+import ShopByAge from './components/ShopByAge/ShopByAge';
 
 const router = createBrowserRouter([
     {
@@ -50,6 +52,14 @@ const router = createBrowserRouter([
             {
                 path: '/banner',
                 element: <Banner></Banner>
+            },
+            {
+                path: '/customerreview',
+                element: <CustomerReview></CustomerReview>
+            },
+            {
+                path: '/shopbyage',
+                element: <ShopByAge></ShopByAge>
             }
         ]
 

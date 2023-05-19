@@ -1,0 +1,34 @@
+.age-shop-container{
+    text-align: center;
+}
+
+.age-shop-container h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.age-shop-container p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.item{
+    max-width: 210px;
+    cursor: pointer;
+}
+
+.item img{
+    border-radius: 50%;
+}
+
+.details p {
+    font-size: 20px;
+    font-weight: 700;
+}
