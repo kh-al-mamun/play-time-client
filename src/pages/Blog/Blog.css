@@ -1,9 +1,10 @@
 .blog {
     background-image: url('https://i.ibb.co/7bsPjmT/faq.png');
-    min-height: 1000px;
-    padding-top: 30px;
+    /* min-height: 1000px; */
+    /* padding-top: 30px; */
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -12,6 +13,9 @@
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 15px;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .blog .br {
@@ -21,7 +25,7 @@
 
 .icon-container{
     display: flex;
-    justify-content: flex-end;
+    justify-content: end;
     margin-bottom: 10px;
 
 }
