@@ -17,7 +17,15 @@ const Blog = () => {
                     </li>
                     <br />
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, corrupti, commodi nemo aperiam eos animi error accusamus dolor, repudiandae deleniti ea facere! Veritatis natus distinctio architecto atque dolores alias optio, recusandae nulla nesciunt asperiores eum harum consequatur praesentium tempora eius inventore tenetur modi sed provident explicabo. Voluptatum, porro earum? Officiis distinctio eaque voluptatibus consectetur nostrum dolore provident, quos similique porro perspiciatis tempora consequatur magni facere, earum exercitationem odit, soluta omnis quia alias amet in aut voluptates expedita dignissimos. Corporis amet vitae magnam exercitationem non velit id, obcaecati molestiae ullam sit et numquam veritatis illo facilis maiores unde laboriosam cum. Sed quis tempora doloremque dolorem omnis mollitia expedita! Voluptates vero distinctio aut beatae mollitia architecto at suscipit cum rerum sunt, ad dolore exercitationem totam esse,
+                        Access token: An access token is issued to a client, serving as a credential. It acts as an authorization mechanism, enabling the client to access particular resources or perform specific actions. The access token is a string that has a limited lifespan and includes crucial details regarding the user or client identity, as well as the granted permissions.
+                        <span className='br'></span>
+                        Refresh token: During the authentication process, a refresh token is obtained alongside an access token, serving as a long-lived credential. Its primary function is to enable the retrieval of a new access token when the current one expires. By utilizing a refresh token, users can seamlessly maintain access to resources without the need for repetitive re-authentication.
+                        <span className='br'></span>
+                        When a user first log on the server auto generate the tokens and send it to the user. The next time the user try to access sensitive data he/she must also send the token back to the server in request header. If the server recognizes this token it sends the data otherwise it sends a response "unauthorize assess".
+                        <span className='br'></span>
+                        These tokens can be stored in local storage or HTTP only cookies.
+
+
                     </p>
                 </div>
                 <div className='QA-section'>
@@ -30,7 +38,11 @@ const Blog = () => {
                     </li>
                     <br />
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, corrupti, commodi nemo aperiam eos animi error accusamus dolor, repudiandae deleniti ea facere! Veritatis natus distinctio architecto atque dolores alias optio, recusandae nulla nesciunt asperiores eum harum consequatur praesentium tempora eius inventore tenetur modi sed provident explicabo. Voluptatum, porro earum? Officiis distinctio eaque voluptatibus consectetur nostrum dolore provident, quos similique porro perspiciatis tempora consequatur magni facere, earum exercitationem odit, soluta omnis quia alias amet in aut voluptates expedita dignissimos. Corporis amet vitae magnam exercitationem non velit id, obcaecati molestiae ullam sit et numquam veritatis illo facilis maiores unde laboriosam cum. Sed quis tempora doloremque dolorem omnis mollitia expedita! Voluptates vero distinctio aut beatae mollitia architecto at suscipit cum rerum sunt, ad dolore exercitationem totam esse,
+                        SQL is a structured and standard data model, whereas NoSQL is a flexible and dynamic schema based database model.
+                        <span className='br'></span>
+                        SQL has a very rigid schema which is not true for NoSQL database.
+                        <span className='br'></span>
+                        NoSQL is usually used for storing and accessing tremendous volume of data.
                     </p>
                 </div>
                 <div className='QA-section'>
@@ -43,7 +55,11 @@ const Blog = () => {
                     </li>
                     <br />
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, corrupti, commodi nemo aperiam eos animi error accusamus dolor, repudiandae deleniti ea facere! Veritatis natus distinctio architecto atque dolores alias optio, recusandae nulla nesciunt asperiores eum harum consequatur praesentium tempora eius inventore tenetur modi sed provident explicabo. Voluptatum, porro earum? Officiis distinctio eaque voluptatibus consectetur nostrum dolore provident, quos similique porro perspiciatis tempora consequatur magni facere, earum exercitationem odit, soluta omnis quia alias amet in aut voluptates expedita dignissimos. Corporis amet vitae magnam exercitationem non velit id, obcaecati molestiae ullam sit et numquam veritatis illo facilis maiores unde laboriosam cum. Sed quis tempora doloremque dolorem omnis mollitia expedita! Voluptates vero distinctio aut beatae mollitia architecto at suscipit cum rerum sunt, ad dolore exercitationem totam esse,
+                        Express js is a javascript library  used with node JS to build server side applications. Express js is written in javascript.
+
+                        <span className='br'></span>
+
+                        Nest js is an alternative of Express js, written in typescript for building scalable and maintainable web applications.
                     </p>
                 </div>
                 <div className='QA-section'>
@@ -56,7 +72,11 @@ const Blog = () => {
                     </li>
                     <br />
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, corrupti, commodi nemo aperiam eos animi error accusamus dolor, repudiandae deleniti ea facere! Veritatis natus distinctio architecto atque dolores alias optio, recusandae nulla nesciunt asperiores eum harum consequatur praesentium tempora eius inventore tenetur modi sed provident explicabo. Voluptatum, porro earum? Officiis distinctio eaque voluptatibus consectetur nostrum dolore provident, quos similique porro perspiciatis tempora consequatur magni facere, earum exercitationem odit, soluta omnis quia alias amet in aut voluptates expedita dignissimos. Corporis amet vitae magnam exercitationem non velit id, obcaecati molestiae ullam sit et numquam veritatis illo facilis maiores unde laboriosam cum. Sed quis tempora doloremque dolorem omnis mollitia expedita! Voluptates vero distinctio aut beatae mollitia architecto at suscipit cum rerum sunt, ad dolore exercitationem totam esse,
+                    MongoDB aggregate is a powerful method for analyzing and processing advanced data. We can use this process for performing complex operation within our MongoDB collection.
+
+                    <span className='br'></span>
+
+                    It works by utilizing various stages including filtering, grouping, sorting, projecting, and performing calculations sequentially. Each stage receives the previous stage's output and send another output for the next stage.
                     </p>
                 </div>
 

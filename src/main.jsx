@@ -4,7 +4,6 @@ import App from './App'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from './components/Home';
-import About from './components/About';
 import LoginForm from './components/LoginForm/LoginForm';
 import RegForm from './components/RegForm/RegForm';
 import Gallery from './components/Gallery/Gallery';
@@ -24,10 +23,6 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Home></Home>
-            },
-            {
-                path: '/about',
-                element: <About></About>
             },
             {
                 path: '/login',

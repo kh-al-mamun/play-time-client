@@ -14,6 +14,11 @@
     margin-bottom: 15px;
 }
 
+.blog .br {
+    display: block;
+    margin-bottom: 10px;
+}
+
 .icon-container{
     display: flex;
     justify-content: end;
