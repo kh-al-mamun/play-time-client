@@ -1,7 +1,9 @@
 import { PinAngleFillIcon, PinAngleIcon } from '../../utility/Icons';
+import useTitle from '../../utility/hooks/useTitle';
 import './Blog.css';
 
 const Blog = () => {
+    useTitle('Blog')
     return (
         <div className='blog'>
             <h1>Blog</h1>

@@ -1,6 +1,9 @@
 .header-wrapper {
     background-color: var(--header-bg);
 }
+header{
+    position: relative;
+}
 
 header a,
 header .btn-logout {

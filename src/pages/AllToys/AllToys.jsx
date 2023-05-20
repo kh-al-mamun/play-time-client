@@ -4,8 +4,10 @@ import { useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
 import Spinner from "../../utility/Spinner";
 import { Link, useLoaderData } from 'react-router-dom';
+import useTitle from '../../utility/hooks/useTitle';
 
 const AllToys = () => {
+    useTitle('All Toys')
     const totalToys = useLoaderData().length;
     const [currentPage, setCurrentPage] = useState(0);
     const [itemsPerPage, setItemsPerPage] = useState(20);

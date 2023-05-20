@@ -3,8 +3,10 @@ import './AddAToy.css';
 import { AuthContext } from '../../providers/AuthProvider';
 import { toast } from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
+import useTitle from '../../utility/hooks/useTitle';
 
 const AddAToy = () => {
+    useTitle('Add a Toy')
     const { user } = useContext(AuthContext);
     const navigate = useNavigate()
 

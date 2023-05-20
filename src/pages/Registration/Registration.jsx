@@ -3,8 +3,10 @@ import './Registration.css';
 import { useContext } from 'react';
 import { AuthContext } from '../../providers/AuthProvider';
 import { toast } from 'react-hot-toast';
+import useTitle from '../../utility/hooks/useTitle';
 
 const Registration = () => {
+    useTitle('Register')
     const { createAccount, changeInfo } = useContext(AuthContext);
     const navigate = useNavigate();
     const location = useLocation();

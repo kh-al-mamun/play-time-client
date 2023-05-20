@@ -23,7 +23,9 @@ const Header = () => {
             <header className='container '>
                 <div className="logo">
                     <div>
+                    <p style={logoNameStyle}>Play Time</p>
                         {<Logo />}
+                        
                     </div>
                     <div className='menuIcon'>
                         <button onClick={() => setHideMobile(!hideMobile)}><MenuIcon size={'28'} /></button>
@@ -55,4 +57,11 @@ const Header = () => {
     );
 };
 
+const logoNameStyle = {
+    // marginTop: '10px',
+    fontSize: '13px',
+    position: 'absolute',
+    top: '10px',
+    left: '20px'
+}
 export default Header;

@@ -26,7 +26,10 @@ const Footer = () => {
 
           <div>
             {/* <img src="logo.svg" style={{ width: '150px' }} alt="" /> */}
-            <div className='footer-logo'><Logo /></div>
+            <div className='footer-logo'>
+              <Logo />
+            <p style={logoNameStyle}>Play Time</p>
+            </div>
             <div className='footer-icon-container'>
               <span><FacebookIcon /></span>
               <span><TwitterIcon /></span>
@@ -84,5 +87,13 @@ const Footer = () => {
     </div>
   );
 };
+
+const logoNameStyle = {
+  // marginTop: '-10px',
+  fontSize: '13px',
+  position: 'absolute',
+  top: '10px',
+  left: '20px'
+}
 
 export default Footer;

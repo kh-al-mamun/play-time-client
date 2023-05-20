@@ -3,8 +3,10 @@ import './Login.css';
 import { useContext } from 'react';
 import { AuthContext } from '../../providers/AuthProvider';
 import { toast } from 'react-hot-toast';
+import useTitle from '../../utility/hooks/useTitle';
 
 const Login = () => {
+    useTitle('Login')
     const navigate = useNavigate();
     const location = useLocation();
     const from = location.state?.from?.pathname || '/';

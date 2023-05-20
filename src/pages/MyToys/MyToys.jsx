@@ -8,8 +8,10 @@ import Modal from '../../utility/Modal';
 import UpdateAToy from '../shared/UpdateAToy/UpdateAToy';
 import { Link } from 'react-router-dom';
 import { ArrowDownIcon, ArrowUpIcon } from '../../utility/Icons';
+import useTitle from '../../utility/hooks/useTitle';
 
 const MyToys = () => {
+    useTitle('My Toys')
     const { user } = useContext(AuthContext);
     const [myToys, setMyToys] = useState([]);
     const [sort, setSort] = useState(0);

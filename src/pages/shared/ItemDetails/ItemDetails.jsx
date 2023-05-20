@@ -4,8 +4,10 @@ import Spinner from '../../../utility/Spinner';
 import { toast } from 'react-hot-toast';
 import { CurrencyDollarIcon, ShopIcon, StarFillIcon, StarHalfFill } from '../../../utility/Icons';
 import { useLoaderData } from 'react-router-dom';
+import useTitle from '../../../utility/hooks/useTitle';
 
 const ItemDetails = ({ productId, noSection }) => {
+    
     const [isLoading, setIsLoading] = useState(true);
     const [itemDetails, setItemDetails] = useState({})
     const loaderData = useLoaderData();
@@ -28,7 +30,9 @@ const ItemDetails = ({ productId, noSection }) => {
         }
     }, [productId, loaderData])
 
-    const { _id, toyName, sellerName, sellerEmail, picture, price, rating, category, availableQuantity, description, tags } = itemDetails
+    const { _id, toyName, sellerName, sellerEmail, picture, price, rating, category, availableQuantity, description, tags } = itemDetails;
+
+    useTitle(`${itemDetails?.toyName} Details`)
 
     if (isLoading) { return <Spinner /> }
 

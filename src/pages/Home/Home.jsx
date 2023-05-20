@@ -6,9 +6,13 @@ import Gallery from "./Gallery/Gallery";
 import ShopByAge from "./ShopByAge/ShopByAge";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import useTitle from "../../utility/hooks/useTitle";
+
 
 
 const Home = () => {
+
+    useTitle('Home')
 
     useEffect(() => {
         AOS.init({ duration: 1200 })
