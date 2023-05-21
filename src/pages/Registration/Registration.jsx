@@ -93,10 +93,10 @@ const Registration = () => {
                         </div>
                     </div>
 
-                    <a href="#" className="text-xs text-purple-600"> Forget Password? </a>
+                    <a href="#" className="text-xs text-orange-600"> Forget Password? </a>
 
                     <div className="flex items-center mt-4">
-                        <button className="button"> Register </button>
+                        <button className="button register-Btn"> Register </button>
                     </div>
 
                 </form>
@@ -104,7 +104,7 @@ const Registration = () => {
 
                 <div className="mt-4 text-grey-600">
                     Already have an account?
-                    <span> <Link to={'/login'} className="text-purple-600"> Log in </Link> </span>
+                    <span> <Link to={'/login'} className="text-orange-600"> Log in </Link> </span>
                 </div>
 
             </div>

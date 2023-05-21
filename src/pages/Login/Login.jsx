@@ -47,7 +47,7 @@ const Login = () => {
     return (
         <div className="relative flex flex-col justify-center min-h-screen overflow-hidden">
             <div className="w-full p-6 m-auto bg-white rounded-md shadow-md lg:max-w-xl">
-                <h1 className="text-3xl font-semibold text-center text-purple-700 underline">
+                <h1 className="text-3xl font-semibold text-center text-orange-500 underline">
                     Sign in
                 </h1>
 
@@ -62,15 +62,15 @@ const Login = () => {
                         <input type="password" name='password' className="input" />
                     </div>
 
-                    <Link href="#" className="text-xs text-purple-600" > Forget Password? </Link>
+                    <Link href="#" className="text-xs text-orange-600" > Forget Password? </Link>
 
                     <div className="mt-6">
-                        <button className="button" type='submit'> Login </button>
+                        <button className="button logIn-btn" type='submit'> Login </button>
                     </div>
                 </form>
 
                 <p className="mt-8 text-xs font-light text-center text-gray-700"> Don{"'"}t have an account?
-                    <Link to={'/registration'} className="font-medium text-purple-600" > Sign up </Link>
+                    <Link to={'/registration'} className="font-medium text-orange-600" > Sign up </Link>
                 </p>
 
                 <div className="flex items-center w-full my-4">
