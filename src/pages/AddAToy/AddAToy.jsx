@@ -29,7 +29,7 @@ const AddAToy = () => {
 
         const toastId = toast.loading('Adding new toy')
 
-        fetch('http://localhost:5000/animal-toys', {
+        fetch('https://play-time-kh.onrender.com/animal-toys', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

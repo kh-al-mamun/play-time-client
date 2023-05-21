@@ -20,7 +20,7 @@ const AllToys = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/animal-toys?page=${currentPage}&limit=${itemsPerPage}`)
+        fetch(`https://play-time-kh.onrender.com/animal-toys?page=${currentPage}&limit=${itemsPerPage}`)
             .then(res => res.json())
             .then(data => {
                 setAllToys(data);
@@ -38,7 +38,7 @@ const AllToys = () => {
         setIsSearching(true);
         const name = event.target.name.value;
         console.log(name);
-        fetch(`http://localhost:5000/animal-toys?search=${name}`)
+        fetch(`https://play-time-kh.onrender.com/animal-toys?search=${name}`)
         .then(res => res.json())
         .then(data => {
             setAllToys(data);

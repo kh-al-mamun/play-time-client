@@ -17,7 +17,7 @@ const ItemDetails = ({ productId, noSection }) => {
             setItemDetails(loaderData);
             setIsLoading(false);
         } else {
-            fetch(`http://localhost:5000/animal-toys?id=${productId}`)
+            fetch(`https://play-time-kh.onrender.com/animal-toys?id=${productId}`)
                 .then(response => response.json())
                 .then(data => {
                     setItemDetails(data);

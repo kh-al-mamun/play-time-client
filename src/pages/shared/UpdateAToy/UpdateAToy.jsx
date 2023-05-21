@@ -23,7 +23,7 @@ const UpdateAToy = ({toy, closeModal, reFetch, setReFetch}) => { console.log(toy
 
         const toastId = toast.loading('Updating')
 
-        fetch(`http://localhost:5000/animal-toys/${toy._id}`, {
+        fetch(`https://play-time-kh.onrender.com/animal-toys/${toy._id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

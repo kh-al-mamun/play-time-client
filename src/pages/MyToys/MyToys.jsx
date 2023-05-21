@@ -19,7 +19,7 @@ const MyToys = () => {
     const [iseLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/animal-toys?email=${user?.email}&sort=${sort}`)
+        fetch(`https://play-time-kh.onrender.com/animal-toys?email=${user?.email}&sort=${sort}`)
             .then(res => res.json())
             .then(data => {
                 setMyToys(data);
@@ -91,7 +91,7 @@ const ToysRow = ({ toy, reFetch, setReFetch }) => {
             .then((result) => {
                 if (result.isConfirmed) {
                     const toastId = toast.loading('Deleting');
-                    fetch(`http://localhost:5000/animal-toys/${_id}`, {
+                    fetch(`https://play-time-kh.onrender.com/animal-toys/${_id}`, {
                         method: 'DELETE'
                     })
                         .then(res => res.json())

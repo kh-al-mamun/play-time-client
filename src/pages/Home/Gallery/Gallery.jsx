@@ -11,7 +11,7 @@ const Gallery = () => {
 
     const [imageData, setImageData] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5000/animal-toys/gallery")
+        fetch("https://play-time-kh.onrender.com/animal-toys/gallery")
             .then(response => response.json())
             .then(data => {
                 setImageData(data);

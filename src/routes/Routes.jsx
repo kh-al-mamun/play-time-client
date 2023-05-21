@@ -28,7 +28,7 @@ const Routes = createBrowserRouter([
             {
                 path: '/all-toys',
                 element: <AllToys />,
-                loader: () => fetch('http://localhost:5000/animal-toys?length=true')
+                loader: () => fetch('https://play-time-kh.onrender.com/animal-toys?length=true')
             },
             {
                 path: '/my-toys',
@@ -41,7 +41,7 @@ const Routes = createBrowserRouter([
             {
                 path: '/toys/:id',
                 element: <PrivateRoute><ItemDetails /></PrivateRoute>,
-                loader: ({params}) => fetch(`http://localhost:5000/animal-toys?id=${params.id}`)
+                loader: ({params}) => fetch(`https://play-time-kh.onrender.com/animal-toys?id=${params.id}`)
             },
             {
                 path: '/login',

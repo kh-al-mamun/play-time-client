@@ -6,7 +6,7 @@ const ItemDetails = () => {
     const [itemDetails, setItemDetails] = useState({})
 
     useEffect(() => {
-        fetch(`http://localhost:5000/animal-toys?id=64651a352de078f766aa542e`)
+        fetch(`https://play-time-kh.onrender.com/animal-toys?id=64651a352de078f766aa542e`)
             .then(response => response.json())
             .then(data => setItemDetails(data))
     }, [])

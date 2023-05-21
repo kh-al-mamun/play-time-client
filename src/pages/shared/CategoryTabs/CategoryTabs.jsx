@@ -11,17 +11,17 @@ const CategoryTabs = () => {
     const [pizzle, setPizzle] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/animal-toys?subCategory=Teddy Bear')
+        fetch('https://play-time-kh.onrender.com/animal-toys?subCategory=Teddy Bear')
             .then(res => res.json())
             .then(data => setTeddyBear(data))
             .catch(error => toast.error(error.message));
 
-        fetch('http://localhost:5000/animal-toys?subCategory=Unicorn')
+        fetch('https://play-time-kh.onrender.com/animal-toys?subCategory=Unicorn')
             .then(res => res.json())
             .then(data => setUnicorn(data))
             .catch(error => toast.error(error.message));
 
-        fetch('http://localhost:5000/animal-toys?subCategory=Pizzle')
+        fetch('https://play-time-kh.onrender.com/animal-toys?subCategory=Pizzle')
             .then(res => res.json())
             .then(data => setPizzle(data))
             .catch(error => toast.error(error.message));
